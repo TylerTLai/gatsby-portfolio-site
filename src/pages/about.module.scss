@@ -1,0 +1,91 @@
+$gray1: #f0f0f0;
+$gray2: #8c8c8c;
+$gray3: #1d1d1f;
+$red: #b50000;
+
+.container {
+  display: grid;
+  padding: 0 5rem;
+  grid-template-columns: 1fr 0.2fr 1fr;
+  grid-template-rows: 0.8fr 1fr 1fr;
+  grid-template-areas:
+    "...  ... ..."
+    "main ... skills"
+    "...  ... ...";
+
+  .heading {
+    color: $gray3;
+  }
+
+  .content {
+    color: $gray2;
+  }
+
+  .main {
+    grid-area: main;
+
+    .mainContent {
+      color: $gray2;
+    }
+  }
+
+  .skills {
+    grid-area: skills;
+
+    .skillsList {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "list1 list2";
+      list-style-type: none;
+      padding-inline-start: 0;
+      line-height: 1.8;
+    }
+  }
+}
+
+@media (max-width: 890px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr .8fr 1fr;
+    grid-template-areas:
+      "..."
+      "main"
+      "skills";
+  }
+}
+
+@media (max-width: 673px) {
+  .container {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr .5fr 1fr;
+    grid-template-areas:
+      "..."
+      "main"
+      "skills";
+
+.heading{
+  text-align: center;
+  font-weight: 600;
+}
+.main {
+  text-align: center;
+}
+
+    .skills {
+      grid-area: skills;
+      text-align: center;
+
+      .skillsList {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "list1"
+          "list2";
+        list-style-type: none;
+        padding-inline-start: 0;
+        line-height: 1.8;
+      }
+    }
+  }
+}

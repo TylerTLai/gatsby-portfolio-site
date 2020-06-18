@@ -1,0 +1,36 @@
+$gray1: #f0f0f0;
+$gray2: #8c8c8c;
+$gray3: #1d1d1f;
+$red: #b50000;
+
+.navbar {
+  border-bottom: 1px solid #c3c3c3;
+
+  .navList {
+    display: flex;
+    list-style-type: none;
+
+    .navItem {
+      color: $gray2;
+      font-size: 0.9rem;
+      margin-right: 1.3rem;
+      text-decoration: none;
+    }
+
+    .navItem:hover {
+      color: $red;
+    }
+
+    .active-nav-item {
+      color: $gray3;
+    }
+  }
+}
+
+@media (max-width: 673px) {
+  .navbar {
+    .navList{
+      justify-content: center;
+    }
+  }
+}

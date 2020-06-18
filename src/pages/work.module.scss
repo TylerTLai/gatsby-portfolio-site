@@ -1,0 +1,60 @@
+$gray1: #f0f0f0;
+$gray2: #8c8c8c;
+$gray3: #1d1d1f;
+$red: #b50000;
+
+.container {
+  display: grid;
+  padding: 0 5rem;
+  text-align: center;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "...  ... ..."
+    "... main ..."
+    "...  ... ...";
+
+  .heading {
+    color: $gray3;
+  }
+
+  .content {
+    color: $gray2;
+  }
+
+  .main {
+    grid-area: main;
+
+    .mainContent {
+      color: $gray2;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.5fr 1fr;
+    grid-template-areas:
+      "..."
+      "main"
+      "...";
+  }
+}
+
+@media (max-width: 673px) {
+  .container {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.5fr 1fr;
+    grid-template-areas:
+      "..."
+      "main"
+      "skills";
+
+      .heading{
+        font-weight: 600;
+      }
+  }
+}

@@ -1,0 +1,28 @@
+$gray1: #f0f0f0;
+$gray2: #8c8c8c;
+$gray3: #1d1d1f;
+$red: #b50000;
+
+.container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.8fr 1fr 1fr;
+  grid-template-areas:
+    "..."
+    "main"
+    "...";
+
+  .main {
+    grid-area: main;
+
+    .button {
+      background-color: $gray3;
+      border: 0;
+      color: $gray1;
+      border-radius: 5px;
+      padding: 1rem 1.2rem;
+      font-size: 1rem;
+    }
+  }
+}
