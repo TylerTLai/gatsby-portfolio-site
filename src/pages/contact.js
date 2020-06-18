@@ -1,7 +1,6 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
-import Head from "../components/head"
-
 import contactStyles from "./contact.module.scss"
 import Layout from "../components/layout"
 import {
@@ -13,7 +12,7 @@ import {
 function contact() {
   return (
     <Layout>
-      <Head title="Contact | Tyler Lai" />
+      <Helmet title="Contact | Tyler Lai" />
       <motion.div
         className={contactStyles.container}
         variants={containerVariants}

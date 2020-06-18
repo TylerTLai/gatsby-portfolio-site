@@ -1,15 +1,14 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
-import Head from "../components/head"
-
 import workStyles from "./work.module.scss"
 import Layout from "../components/layout"
-import { containerVariants} from "../animations/work"
+import { containerVariants } from "../animations/work"
 
 function work() {
   return (
     <Layout>
-      <Head title="Work | Tyler Lai" />
+      <Helmet title="Work | Tyler Lai" />
       <motion.div
         className={workStyles.container}
         variants={containerVariants}

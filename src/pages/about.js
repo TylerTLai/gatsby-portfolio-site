@@ -1,9 +1,8 @@
 import React from "react"
-import aboutStyles from "./about.module.scss"
+import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
+import aboutStyles from "./about.module.scss"
 import Layout from "../components/layout"
-import Head from "../components/head"
-
 import {
   containerVariants,
   mainVariants,
@@ -12,6 +11,7 @@ import {
 } from "../animations/about"
 
 function about() {
+  
   const skills = [
     "HTML5",
     "CSS3 / SCSS",
@@ -29,7 +29,7 @@ function about() {
 
   return (
     <Layout>
-      <Head title="About | Tyler Lai" />
+      <Helmet title="About | Tyler Lai" />
       <motion.div
         className={aboutStyles.container}
         variants={containerVariants}

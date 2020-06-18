@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
-import Layout from "../components/layout"
 import notFoundStyles from "./404.module.scss"
+import Layout from "../components/layout"
 
 function NotFound() {
+  
   const buttonVariants = {
     initial: {
       scale: 1,
@@ -30,6 +32,7 @@ function NotFound() {
 
   return (
     <Layout>
+      <Helmet title="Not Found | Tyler Lai" />
       <motion.div
         className={notFoundStyles.container}
         variants={containerVariants}

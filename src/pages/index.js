@@ -1,8 +1,8 @@
 import React from "react"
-import { motion } from "framer-motion"
+import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
+import { motion } from "framer-motion"
 import homeStyles from "./index.module.scss"
-import Head from "../components/head"
 import Layout from "../components/layout"
 import {
   buttonVariants,
@@ -13,7 +13,7 @@ import {
 function index() {
   return (
     <Layout>
-      <Head title='Home | Tyler Lai'/>
+      <Helmet title="Home | Tyler Lai" />
       <div className={homeStyles.container}>
         <main className={homeStyles.main}>
           <p className={homeStyles.subheading}>Frontend Developer</p>
