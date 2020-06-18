@@ -7,16 +7,13 @@ export const fullNameVariants = {
     opacity: 1,
     scale: 1,
     transition: {
-      // type: "spring",
-     
       when: "beforeChildren",
-      staggerChildren: 0.1,
-      // stiffness: 300,
+      staggerChildren: 0.04,
     },
   },
   hover: {
     x: [1, -7, 1, -7, 1],
-    transition: {duration: .5}
+    transition: { duration: 0.4 },
   },
 }
 

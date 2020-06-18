@@ -9,6 +9,7 @@ $red: #b50000;
   .navList {
     display: flex;
     list-style-type: none;
+    padding-inline-start: 0px;
 
     .navItem {
       color: $gray2;
@@ -29,8 +30,9 @@ $red: #b50000;
 
 @media (max-width: 673px) {
   .navbar {
-    .navList{
-      justify-content: center;
+    .navList {
+      justify-content: space-around;
+      padding-inline-start: 20px;
     }
   }
 }

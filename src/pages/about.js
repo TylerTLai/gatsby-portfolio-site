@@ -5,7 +5,6 @@ import aboutStyles from "./about.module.scss"
 import Layout from "../components/layout"
 import {
   containerVariants,
-  mainVariants,
   skillsVariants,
   skillsItemVariants,
 } from "../animations/about"
@@ -35,25 +34,15 @@ function about() {
         initial="initial"
         animate="visible"
       >
-        <motion.div
-          className={aboutStyles.main}
-          variants={mainVariants}
-          initial="initial"
-          animate="visible"
-        >
+        <div className={aboutStyles.main}>
           <h1 className={aboutStyles.heading}>About Me</h1>
           <p className={aboutStyles.content}>
             I enjoy turning ideas into useful, well-polished products. Having a
             sharp eye for design helps me deliver quality user experiences.
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className={aboutStyles.skills}
-          variants={skillsVariants}
-          initial="initial"
-          animate="visible"
-        >
+        <motion.div className={aboutStyles.skills}>
           <h1 className={aboutStyles.heading}>Techincal skills</h1>
           <p className={aboutStyles.content}>
             <motion.ul
@@ -66,7 +55,6 @@ function about() {
                 <motion.li
                   key={skill}
                   variants={skillsItemVariants}
-                 
                   whileHover="hover"
                 >
                   {skill}

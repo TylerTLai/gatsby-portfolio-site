@@ -35,103 +35,149 @@ $red: #b50000;
       font-size: 1.5rem;
     }
 
+    // .thumb {
+    //   svg {
+    //     position: relative;
+    //     top: 10px;
+    //     width: 50px !important;
+    //   }
+    // }
+
     .button {
       background-color: $red;
       border: 0;
       border-radius: 5px;
       color: #ffffff;
-      font-size: 0.8rem;
+      font-size: 1rem;
       padding: 0.8rem 2rem;
-      width: auto;
     }
   }
 }
 
 @media (max-width: 1148px) {
   .container {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 0fr;
   }
 }
 
-@media (max-width: 986px) {
+// @media (max-width: 986px) {
+//   .container {
+//     grid-template-columns: 2fr 0.5fr;
+//     grid-template-rows: 0.35fr 1fr;
+//     .main {
+//       .heading {
+//         font-size: 3.5rem;
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 692px) {
+//   .container {
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 0.3fr 1fr 1fr;
+//     grid-template-areas:
+//       "..."
+//       "main"
+//       "...";
+
+//     .main {
+//       .subheading {
+//         font-size: 1.2rem;
+//         margin-bottom: 0.7rem;
+//       }
+//       .heading {
+//         font-size: 2.5rem;
+//       }
+//       .content {
+//         font-size: 1.2rem;
+//         margin-bottom: 2rem;
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 544px) {
   .container {
-    grid-template-columns: 2fr 0.5fr;
-    grid-template-rows: 0.35fr 1fr;
+    padding: 1.5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-areas:
+      "..."
+      "main"
+      '...'
+      ;
     .main {
       .heading {
         font-size: 3.5rem;
       }
-    }
-  }
-}
-
-@media (max-width: 692px) {
-  .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1fr;
-    grid-template-areas:
-      "..."
-      "main";
-    .main {
-      .subheading {
-        font-size: 1.2rem;
-        margin-bottom: 0.7rem;
-      }
-      .heading {
-        font-size: 2.5rem;
-      }
       .content {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5
       }
     }
   }
 }
 
-@media (max-width: 411px) {
-  .container {
-    text-align: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1fr;
-    grid-template-areas:
-      "..."
-      "main";
-    .main {
-      .subheading {
-        font-size: 1rem;
-        margin-bottom: 0.5rem;
-      }
-      .heading {
-        font-size: 2rem;
-      }
-      .content {
-        font-size: 1rem;
-        margin-bottom: 2rem;
-      }
-    }
-  }
-}
-
-@media (max-width: 411px) {
-  
-  .container {
+@media(max-width: 330px) {
+  .container{
     padding: 1rem;
-
-    .main {
-      .subheading {
-        font-size: .8rem;
-        margin-bottom: 0.5rem;
-      }
+    .main{
       .heading {
-        font-size: 2rem;
+        font-size: 3rem;
       }
       .content {
-        font-size: 1rem;
-        margin-bottom: 2rem;
-      }
-      .button {
-        padding: 0.8rem 1.8rem;
+        font-size: 1.2rem;
+        line-height: 1.5;
       }
     }
   }
 }
+
+// @media (max-width: 411px) {
+//   .container {
+//     text-align: center;
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 0.3fr 1fr;
+//     grid-template-areas:
+//       "..."
+//       "main";
+//     .main {
+//       .subheading {
+//         font-size: 1rem;
+//         margin-bottom: 0.5rem;
+//       }
+//       .heading {
+//         font-size: 2rem;
+//       }
+//       .content {
+//         font-size: 1rem;
+//         margin-bottom: 2rem;
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 411px) {
+//   .container {
+//     padding: 1rem;
+
+//     .main {
+//       .subheading {
+//         font-size: 0.8rem;
+//         margin-bottom: 0.5rem;
+//       }
+//       .heading {
+//         font-size: 2rem;
+//       }
+//       .content {
+//         font-size: 1rem;
+//         margin-bottom: 2rem;
+//       }
+//       .button {
+//         padding: 0.8rem 1.8rem;
+//       }
+//     }
+//   }
+// }
