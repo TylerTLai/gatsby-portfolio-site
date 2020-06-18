@@ -11,7 +11,6 @@ import {
 } from "../animations/about"
 
 function about() {
-  
   const skills = [
     "HTML5",
     "CSS3 / SCSS",
@@ -65,9 +64,9 @@ function about() {
             >
               {skills.map(skill => (
                 <motion.li
+                  key={skill}
                   variants={skillsItemVariants}
-                  initial="initial"
-                  animate="visible"
+                 
                   whileHover="hover"
                 >
                   {skill}

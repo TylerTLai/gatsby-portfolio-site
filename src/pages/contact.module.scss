@@ -8,7 +8,7 @@ $red: #b50000;
   padding: 0 5rem;
   text-align: center;
   grid-template-columns: 0.5fr 2fr 0.5fr;
-  grid-template-rows: .8fr 1fr 1fr;
+  grid-template-rows: 0.8fr 1fr 1fr;
   grid-template-areas:
     "...  ... ..."
     "... main ..."
@@ -34,8 +34,8 @@ $red: #b50000;
         margin: 1rem;
       }
       a {
-          text-decoration: none;
-          color: $gray3;
+        text-decoration: none;
+        color: $gray3;
       }
     }
 
@@ -67,8 +67,14 @@ $red: #b50000;
       "main"
       "...";
 
-      .heading{
-        font-weight: 600;
-      }
+    .heading {
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0;
   }
 }

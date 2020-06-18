@@ -14,24 +14,33 @@ export const containerVariants = {
 export const mainVariants = {
   initial: {
     opacity: 0,
+    scale: 0,
+    y: -50,
   },
   visible: {
     opacity: 1,
+    scale: 1,
+    y: 0,
     transition: { delay: 0.1, duration: 0.3 },
   },
 }
 
 export const skillsVariants = {
   initial: {
-    opacity: 0,
-    y: -50,
+    opacity: 1,
     scale: 0,
+    y: -50,
   },
   visible: {
     opacity: 1,
-    y: 0,
     scale: 1,
-    transition: { delay: 0.4, duration: 0.3, staggerChildren: 0.07 },
+    y: 0,
+    transition: {
+      delay: 0.4,
+      duration: 0.3,
+      when: "beforeChildren",
+      staggerChildren: 0.07,
+    },
   },
 }
 

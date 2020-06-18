@@ -1,17 +1,28 @@
-export const nameVariants = {
+export const fullNameVariants = {
   initial: {
-    opacity: 0,
-    y: -20,
+    opacity: 1,
     scale: 1,
   },
   visible: {
     opacity: 1,
-    y: 0,
-    transition: { type: "spring", stiffness: 300 },
+    scale: 1,
+    transition: {
+      // type: "spring",
+     
+      when: "beforeChildren",
+      staggerChildren: 0.1,
+      // stiffness: 300,
+    },
   },
   hover: {
-    scale: 1.05,
+    x: [1, -7, 1, -7, 1],
+    transition: {duration: .5}
   },
+}
+
+export const nameVariants = {
+  initial: { opacity: 0 },
+  visible: { opacity: 1 },
 }
 
 export const userExperienceVariants = {
@@ -34,4 +45,3 @@ export const buttonVariants = {
     backgroundColor: "black",
   },
 }
-
