@@ -73,6 +73,27 @@ $red: #b50000;
   .container {
     grid-template-rows: 0.12fr 0.5fr 1fr 0.5fr;
     padding: 1.5rem;
+
+    .skills {
+      grid-area: skills;
+
+      .skillsList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "list1 list2";
+        list-style-position: inside;
+        list-style-type: "▹ ";
+        padding-inline-start: 0;
+        line-height: 2;
+
+        li {
+          font-size: .9rem;
+        }
+        li:nth-child(even) {
+          padding-left: 1.5rem;
+        }
+      }
+    }
   }
 }
 
