@@ -45,16 +45,15 @@ $red: #b50000;
 
 @media (max-width: 673px) {
   .container {
-    padding: 1rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.5fr 1fr;
-    grid-template-areas:
-      "..."
-      "main"
-      "skills";
-
+    grid-template-rows: 0.32fr 0.5fr 1fr;
       .heading{
         font-weight: 600;
       }
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    grid-template-rows: 0.34fr 0.5fr 1fr;
   }
 }

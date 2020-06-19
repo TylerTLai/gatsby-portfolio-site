@@ -101,12 +101,11 @@ $red: #b50000;
   .container {
     padding: 1.5rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-rows: 0.13fr 1fr 1fr;
     grid-template-areas:
       "..."
       "main"
-      '...'
-      ;
+      "...";
     .main {
       .heading {
         font-size: 3.5rem;
@@ -114,16 +113,18 @@ $red: #b50000;
       .content {
         font-size: 1.5rem;
         font-weight: 400;
-        line-height: 1.5
+        line-height: 1.5;
       }
     }
   }
 }
 
-@media(max-width: 330px) {
-  .container{
+@media (max-width: 330px) {
+  .container {
     padding: 1rem;
-    .main{
+    grid-template-rows: 0.2fr 1fr 1fr;
+
+    .main {
       .heading {
         font-size: 3rem;
       }

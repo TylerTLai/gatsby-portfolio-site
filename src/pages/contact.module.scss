@@ -75,6 +75,7 @@ $red: #b50000;
 
 @media (max-width: 320px) {
   .container {
+       grid-template-rows: 0.27fr 0.5fr 1fr;
     padding: 0;
   }
 }
