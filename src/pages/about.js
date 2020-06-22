@@ -34,13 +34,13 @@ function about() {
         initial="initial"
         animate="visible"
       >
-        <div className={aboutStyles.main}>
+        <main className={aboutStyles.main}>
           <h1 className={aboutStyles.heading}>About Me</h1>
           <p className={aboutStyles.content}>
             I enjoy turning ideas into useful, well-polished products. Having a
             sharp eye for design helps me deliver quality user experiences.
           </p>
-        </div>
+        </main>
 
         <motion.div className={aboutStyles.skills}>
           <h1 className={aboutStyles.heading}>Techincal skills</h1>
