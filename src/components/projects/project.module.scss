@@ -1,0 +1,17 @@
+$gray1: #f0f0f0;
+$gray2: #8c8c8c;
+$gray3: #1d1d1f;
+$red: #b50000;
+
+.container {
+  background-color: $gray3;
+  color: $gray1;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  border-radius: 10px;
+  box-shadow: 0px 62px 29px -40px rgba(0, 0, 0, 0.4);
+
+  a {
+      color: $gray1
+  }
+}

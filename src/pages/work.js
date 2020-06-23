@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
 import workStyles from "./work.module.scss"
 import Layout from "../components/layout"
+import Project from "../components/projects/Project"
 import { containerVariants } from "../animations/work"
 
 function work() {
@@ -19,6 +20,10 @@ function work() {
           <h1 className={workStyles.heading}>Work</h1>
           <p className={workStyles.content}>
             Here are some projects that I have built.
+          </p>
+          <br />
+          <p>
+            <Project />
           </p>
         </main>
       </motion.div>
