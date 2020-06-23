@@ -7,8 +7,9 @@ $red: #b50000;
   display: grid;
   padding: 0 5rem;
   text-align: center;
+
   grid-template-columns: 0.5fr 2fr 0.5fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "...  ... ..."
     "... main ..."
@@ -24,6 +25,7 @@ $red: #b50000;
 
   .main {
     grid-area: main;
+    margin-top: 10rem;
 
     .mainContent {
       color: $gray2;
@@ -35,7 +37,6 @@ $red: #b50000;
   .container {
     padding: 1rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.5fr 1fr;
     grid-template-areas:
       "..."
       "main"
@@ -45,15 +46,12 @@ $red: #b50000;
 
 @media (max-width: 673px) {
   .container {
-    grid-template-rows: 0.32fr 0.5fr 1fr;
-      .heading{
-        font-weight: 600;
-      }
-  }
-}
-
-@media (max-width: 320px) {
-  .container {
-    grid-template-rows: 0.34fr 0.5fr 1fr;
+    // grid-template-rows: 0.32fr 0.5fr 1fr;
+    .heading {
+      font-weight: 600;
+    }
+    .main {
+      margin-top: 2.5rem;
+    }
   }
 }

@@ -1,6 +1,6 @@
 [
   {
-    "title": "Gatsby Portfolio Site",
+    "title": "Portfolio Site",
     "description": "A static site made with React + GatsbyJS and deployed on Netlify.",
     "technology": [
       "GatsbyJS",
@@ -28,7 +28,7 @@
     "github": "https://github.com/TylerTLai/film-findr"
   },
   {
-    "title": "Fun Food Friends with Firebase RTDB",
+    "title": "Fun Food Friends",
     "description": "Fun Food Friends with Firebase RTDB is a React web app that allows users to log what they bring to a potluck.",
     "technology": ["React.js", "Custom CSS3 styling", "Firebase RTDB"],
     "url": "",

@@ -2,6 +2,9 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
 import contactStyles from "./contact.module.scss"
+import { AiFillGithub } from "react-icons/ai"
+import { FaLinkedin } from "react-icons/fa"
+import { FiMail } from "react-icons/fi"
 import Layout from "../components/layout"
 import {
   containerVariants,
@@ -27,7 +30,7 @@ function contact() {
             whileHover="hover"
           >
             Say Hello!{" "}
-            <span
+            {/* <span
               role="img"
               aria-label="wave emoji"
               variants={emojiVariants}
@@ -35,7 +38,7 @@ function contact() {
               whileHover="hover"
             >
               👋
-            </span>
+            </span> */}
           </motion.h1>
           <motion.ul className={contactStyles.links}>
             <a
@@ -48,7 +51,7 @@ function contact() {
                 initial="initial"
                 whileHover="hover"
               >
-                LinkedIn
+                <FaLinkedin style={{ fontSize: "2rem", margin: ".5rem" }} />
               </motion.li>
             </a>
             <a
@@ -61,7 +64,7 @@ function contact() {
                 initial="initial"
                 whileHover="hover"
               >
-                GitHub
+                <AiFillGithub style={{ fontSize: "2rem", margin: ".5rem" }} />
               </motion.li>
             </a>
             <a
@@ -74,7 +77,7 @@ function contact() {
                 initial="initial"
                 whileHover="hover"
               >
-                Email
+                <FiMail style={{ fontSize: "2rem", margin: ".5rem" }} />
               </motion.li>
             </a>
           </motion.ul>
