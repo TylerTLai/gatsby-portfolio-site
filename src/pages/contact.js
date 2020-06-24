@@ -1,16 +1,17 @@
 import React from "react"
+import { AiFillGithub } from "react-icons/ai"
+import { FaLinkedin } from "react-icons/fa"
+import { FiCodesandbox } from "react-icons/fi"
+import { FiMail } from "react-icons/fi"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
 import contactStyles from "./contact.module.scss"
-import { AiFillGithub } from "react-icons/ai"
-import { FaLinkedin } from "react-icons/fa"
-import { FiMail } from "react-icons/fi"
-import Layout from "../components/layout"
 import {
   containerVariants,
-  emojiVariants,
+  // emojiVariants,
   linksVariants,
 } from "../animations/contact"
+import Layout from "../components/layout"
 
 function contact() {
   return (
@@ -25,9 +26,9 @@ function contact() {
         <main className={contactStyles.main}>
           <motion.h1
             className={contactStyles.heading}
-            variants={emojiVariants}
-            initial="initial"
-            whileHover="hover"
+            // variants={emojiVariants}
+            // initial="initial"
+            // whileHover="hover"
           >
             Say Hello!{" "}
             {/* <span
@@ -68,6 +69,19 @@ function contact() {
               </motion.li>
             </a>
             <a
+              href="https://codesandbox.io/u/TylerTLai/sandboxes"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <motion.li
+                variants={linksVariants}
+                initial="initial"
+                whileHover="hover"
+              >
+                <FiCodesandbox style={{ fontSize: "2rem", margin: ".5rem" }} />
+              </motion.li>
+            </a>
+            <a
               href="mailto:lai.t.tyler@gmail.com"
               rel="noreferrer"
               target="_blank"
@@ -82,8 +96,8 @@ function contact() {
             </a>
           </motion.ul>
           <p className={contactStyles.content}>
-            Feel free to reach out to me and I will get back with you the best I
-            can.
+            Feel free to reach out to me and <br /> I will get back with you the
+            best I can.
           </p>
         </main>
       </motion.div>

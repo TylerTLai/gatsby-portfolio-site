@@ -22,9 +22,7 @@ function work() {
             Here are some projects that I have built.
           </p>
           <br />
-          <p>
-            <Project />
-          </p>
+          <Project />
         </main>
       </motion.div>
     </Layout>

@@ -21,11 +21,11 @@ export const linksVariants = {
   }
 }
 
-export const emojiVariants = {
-  initial: {
-    scale: 1
-  },
-  hover: {
-    scale: 1.2
-  }
-}
+// export const emojiVariants = {
+//   initial: {
+//     scale: 1
+//   },
+//   hover: {
+//     scale: 1.2
+//   }
+// }

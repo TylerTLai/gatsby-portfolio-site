@@ -1,49 +1,29 @@
 [
   {
     "title": "Portfolio Site",
-    "description": "A static site made with React + GatsbyJS and deployed on Netlify.",
-    "technology": [
-      "GatsbyJS",
-      "React",
-      "CSS Modules",
-      "SCSS",
-      "Netlify",
-      "Framer Motion"
-    ],
+    "description": "My portfolio site I built with React/Gatsby and hosted on Netlify. Animations were added with Framer Motion.",
+    "technology": ["Gatsby", "React", "Framer Motion"],
     "url": "https://www.tylerlai.com/",
     "github": "https://github.com/TylerTLai/gatsby-portfolio-site"
   },
   {
     "title": "Film Findr",
-    "description": "A React web app that allows users to search for movies.",
-    "technology": [
-      "React.js",
-      "Custom CSS3 styling",
-      "TMDB API",
-      "React Hooks",
-      "React Router",
-      "React Slick"
-    ],
+    "description": "A React web app that allows users to search for movies. It uses the TMDB API.",
+    "technology": ["React", "CSS", "TMDB API"],
     "url": "https://film-findr.netlify.app/",
     "github": "https://github.com/TylerTLai/film-findr"
   },
   {
     "title": "Fun Food Friends",
-    "description": "Fun Food Friends with Firebase RTDB is a React web app that allows users to log what they bring to a potluck.",
-    "technology": ["React.js", "Custom CSS3 styling", "Firebase RTDB"],
+    "description": "A React web app that leverages Firebase. It allows users to log what they will bring to a potluck.",
+    "technology": ["React", "CSS", "Firebase"],
     "url": "",
     "github": "https://github.com/TylerTLai/fun-food-friends"
   },
   {
     "title": "Book List",
-    "description": "Book List with vanilla JavaScript is a web app that allows users to keep track of books they're interested in.",
-    "technology": [
-      "Vanillia JavaScript",
-      "CSS",
-      "HTML",
-      "Local Storage",
-      "Basic Form Validation"
-    ],
+    "description": "A simple app built with JavaScript that allows users to keep track of books they're interested in.",
+    "technology": ["JavaScript", "CSS", "HTML"],
     "url": "https://tylertlai.github.io/book-list/",
     "github": "https://github.com/TylerTLai/book-list"
   }

@@ -5,14 +5,14 @@ $red: #b50000;
 
 .container {
   display: grid;
-  padding: 0 5rem;
+  padding: 0;
   text-align: center;
 
   grid-template-columns: 0.5fr 2fr 0.5fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 150px 1fr 150px;
   grid-template-areas:
     "...  ... ..."
-    "... main ..."
+    "main main main"
     "...  ... ...";
 
   .heading {
@@ -25,7 +25,6 @@ $red: #b50000;
 
   .main {
     grid-area: main;
-    margin-top: 10rem;
 
     .mainContent {
       color: $gray2;
@@ -33,25 +32,13 @@ $red: #b50000;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   .container {
-    padding: 1rem;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "..."
-      "main"
-      "...";
+    grid-template-rows: 75px 1fr 75px;
   }
 }
-
-@media (max-width: 673px) {
+@media (max-width: 320px) {
   .container {
-    // grid-template-rows: 0.32fr 0.5fr 1fr;
-    .heading {
-      font-weight: 600;
-    }
-    .main {
-      margin-top: 2.5rem;
-    }
+    grid-template-rows: 65px 1fr 65px;
   }
 }

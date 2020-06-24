@@ -22,10 +22,10 @@ export const skillsVariants = {
     scale: 1,
     y: 0,
     transition: {
-      delay: 0.4,
-      duration: 0.3,
+      // delay: 0.01,
+      
       when: "beforeChildren",
-      staggerChildren: 0.07,
+      staggerChildren: 0.02,
     },
   },
 }
