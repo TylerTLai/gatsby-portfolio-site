@@ -15,9 +15,9 @@ function work() {
         style={{
           backgroundColor: "#1d1d1f",
           border: '2px solid #f0f0f0',
-          width: "15px",
-          padding: "15px",
-          height: "15px",
+          width: "20px",
+          padding: ".7rem",
+          height: "20px",
           borderRadius: "5px",
           marginRight: "-11px",
         }}
