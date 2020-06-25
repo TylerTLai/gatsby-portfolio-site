@@ -16,10 +16,25 @@ $red: #b50000;
       font-size: 0.9rem;
       margin-right: 1.3rem;
       text-decoration: none;
+      position: relative;
     }
 
-    .navItem:hover {
-      color: $red;
+    .navItem::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: $gray3;
+      transform-origin: center;
+      transition: transform 0.15s ease-out;
+    }
+
+    .navItem:hover::before {
+      transform: scaleX(1);
+      transform-origin: center;
     }
 
     .active-nav-item {

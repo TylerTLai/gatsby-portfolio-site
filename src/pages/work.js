@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
+import ScrollUpButton from "react-scroll-up-button"
 import workStyles from "./work.module.scss"
 import Layout from "../components/layout"
 import Project from "../components/projects/Project"
@@ -10,6 +11,17 @@ function work() {
   return (
     <Layout>
       <Helmet title="Work | Tyler Lai" />
+      <ScrollUpButton
+        style={{
+          backgroundColor: "#1d1d1f",
+          border: '2px solid #f0f0f0',
+          width: "15px",
+          padding: "15px",
+          height: "15px",
+          borderRadius: "5px",
+          marginRight: "-11px",
+        }}
+      />
       <motion.div
         className={workStyles.container}
         variants={containerVariants}

@@ -13,6 +13,5 @@ export const linksVariants = {
   },
   hover: {
     scale: 1.2,
-    color: "#b50000",
   },
 }

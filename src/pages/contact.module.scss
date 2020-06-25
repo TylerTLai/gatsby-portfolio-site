@@ -48,13 +48,17 @@ $red: #b50000;
 
 @media (max-width: 530px) {
   .container {
+    grid-template-rows: 80px 0.5fr 80px;
     padding: 0;
   }
 }
 
 @media (max-width: 320px) {
   .container {
-    grid-template-rows: 0.27fr 0.5fr 1fr;
+    grid-template-rows: 75px 0.5fr 75px;
     padding: 0;
+    .main {
+      max-width: 80vw;
+    }
   }
 }
