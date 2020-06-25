@@ -1,11 +1,9 @@
 export const fullNameVariants = {
   initial: {
-    opacity: 1,
-    scale: 1,
+    opacity: 0,
   },
   visible: {
     opacity: 1,
-    scale: 1,
     transition: {
       when: "beforeChildren",
       staggerChildren: 0.04,
@@ -22,23 +20,13 @@ export const nameVariants = {
   visible: { opacity: 1 },
 }
 
-export const userExperienceVariants = {
-  initial: {
-    backgroundColor: "white",
-  },
-  hover: {
-    backgroundColor: "black",
-    color: "white",
-  },
-}
-
 export const buttonVariants = {
-  initial: {
-    scale: 1,
-  },
-  hover: {
-    opacity: 1,
-    scale: 1.1,
-    backgroundColor: "black",
-  },
-}
+         initial: {
+           scale: 1,
+         },
+         hover: {
+           opacity: 1,
+           scale: 1.1,
+           backgroundColor: "#1d1d1f",
+         },
+       }

@@ -9,7 +9,6 @@ import {
   buttonVariants,
   fullNameVariants,
   nameVariants,
-  userExperienceVariants,
 } from "../animations/home"
 
 function Index() {
@@ -49,14 +48,7 @@ function Index() {
           </motion.h1>
           <p className={homeStyles.content}>
             I build and design apps that focus on the{" "}
-            <motion.span
-              variants={userExperienceVariants}
-              initial="initial"
-              whileHover="hover"
-            >
-              user experience
-            </motion.span>
-            .
+            <span style={{ color: "#1d1d1f" }}>user experience</span>.
             {/* <span
               className={homeStyles.thumb}
               ref={thumbContainer}
