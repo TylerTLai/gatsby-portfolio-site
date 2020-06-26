@@ -7,7 +7,7 @@ import homeStyles from "./index.module.scss"
 import Layout from "../components/layout"
 import {
   buttonVariants,
-  fullNameVariants,
+  containerVariants,
   nameVariants,
 } from "../animations/home"
 
@@ -31,21 +31,19 @@ function Index() {
   return (
     <Layout>
       <Helmet title="Home | Tyler Lai" />
-      <div className={homeStyles.container}>
+      <motion.div
+        className={homeStyles.container}
+        variants={containerVariants}
+        initial="initial"
+        animate="visible"
+      >
         <main className={homeStyles.main}>
           <p className={homeStyles.subheading}>Frontend Developer</p>
-          <motion.h1
-            className={homeStyles.heading}
-            variants={fullNameVariants}
-            initial="initial"
-            animate="visible"
-            whileHover="hover"
-            onTap="initial"
-          >
+          <h1 className={homeStyles.heading}>
             {name.map(letter => (
               <motion.span variants={nameVariants}>{letter}</motion.span>
             ))}
-          </motion.h1>
+          </h1>
           <p className={homeStyles.content}>
             I build and design apps that focus on the{" "}
             <span style={{ color: "#1d1d1f" }}>user experience</span>.
@@ -66,7 +64,7 @@ function Index() {
             </motion.button>
           </Link>
         </main>
-      </div>
+      </motion.div>
     </Layout>
   )
 }

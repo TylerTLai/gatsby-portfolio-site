@@ -3,6 +3,7 @@ import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedin } from "react-icons/fa"
 import { FiCodesandbox } from "react-icons/fi"
 import { FiMail } from "react-icons/fi"
+import { GrTwitter } from "react-icons/gr"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
 import contactStyles from "./contact.module.scss"
@@ -79,6 +80,19 @@ function contact() {
                 whileHover="hover"
               >
                 <FiCodesandbox style={{ fontSize: "2rem", margin: ".5rem" }} />
+              </motion.li>
+            </a>
+            <a
+              href="https://twitter.com/tylertlai"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <motion.li
+                variants={linksVariants}
+                initial="initial"
+                whileHover="hover"
+              >
+                <GrTwitter style={{ fontSize: "2rem", margin: ".5rem" }} />
               </motion.li>
             </a>
             <a
