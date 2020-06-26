@@ -70,19 +70,6 @@ function contact() {
               </motion.li>
             </a>
             <a
-              href="https://codesandbox.io/u/TylerTLai/sandboxes"
-              rel="noreferrer"
-              target="_blank"
-            >
-              <motion.li
-                variants={linksVariants}
-                initial="initial"
-                whileHover="hover"
-              >
-                <FiCodesandbox style={{ fontSize: "2rem", margin: ".5rem" }} />
-              </motion.li>
-            </a>
-            <a
               href="https://twitter.com/tylertlai"
               rel="noreferrer"
               target="_blank"
