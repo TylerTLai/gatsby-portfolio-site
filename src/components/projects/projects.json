@@ -1,17 +1,30 @@
-[
-  {
+[{
     "title": "Portfolio Site",
-    "description": "My portfolio site I built with React/Gatsby and hosted on Netlify. Animations were added with Framer Motion.",
+    "description": "Portfolio site built with React, Gatsby, Netlify, and Framer Motion.",
     "technology": ["Gatsby", "React", "Framer Motion"],
     "url": "https://www.tylerlai.com/",
     "github": "https://github.com/TylerTLai/gatsby-portfolio-site"
   },
   {
-    "title": "Film Findr",
+    "title": "Film Findr v1",
     "description": "A React web app that allows users to search for movies. It uses the TMDB API.",
     "technology": ["React", "CSS", "TMDB API"],
     "url": "https://film-findr.netlify.app/",
     "github": "https://github.com/TylerTLai/film-findr"
+  },
+  {
+    "title": "Redux Todo",
+    "description": "A simple todo app made as an exercise to understand Redux concepts.",
+    "technology": ["React", "Redux", "Semantic UI"],
+    "url": "https://codesandbox.io/s/github/TylerTLai/React-Redux-Todo",
+    "github": "https://github.com/TylerTLai/React-Redux-Todo"
+  },
+  {
+    "title": "Thunk Posts",
+    "description": "Basic app to fetch blog posts asynchronously with Redux Thunk.",
+    "technology": ["React", "Redux", "Redux Thunk"],
+    "url": "https://codesandbox.io/s/github/TylerTLai/redux-thunk-blog-posts",
+    "github": "https://github.com/TylerTLai/redux-thunk-blog-posts"
   },
   {
     "title": "Fun Food Friends",
