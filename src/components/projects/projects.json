@@ -17,7 +17,7 @@
     "description": "A simple todo app made as an exercise to understand Redux concepts.",
     "technology": ["React", "Redux", "Semantic UI"],
     "url": "https://codesandbox.io/s/github/TylerTLai/React-Redux-Todo",
-    "github": "https://github.com/TylerTLai/React-Redux-Todo"
+    "github": "https://github.com/TylerTLai/react-redux-todo"
   },
   {
     "title": "Thunk Posts",
@@ -30,7 +30,7 @@
     "title": "Fun Food Friends",
     "description": "A React web app that leverages Firebase. It allows users to log what they will bring to a potluck.",
     "technology": ["React", "CSS", "Firebase"],
-    "url": "",
+    "url": "https://fun-fewd-frenz.netlify.app/",
     "github": "https://github.com/TylerTLai/fun-food-friends"
   },
   {
