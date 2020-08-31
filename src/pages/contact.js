@@ -1,7 +1,7 @@
 import React from "react"
 import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedin } from "react-icons/fa"
-import { FiCodesandbox } from "react-icons/fi"
+// import { FiCodesandbox } from "react-icons/fi"
 import { FiMail } from "react-icons/fi"
 import { GrTwitter } from "react-icons/gr"
 import { Helmet } from "react-helmet"

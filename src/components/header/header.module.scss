@@ -37,10 +37,19 @@ $red: #b50000;
       transform-origin: center;
     }
 
+    .themeIcon {
+      color: $gray3;
+    }
+
     .active-nav-item {
       color: $gray3;
     }
   }
+}
+
+.navbarDark {
+  background-color: $gray3;
+  color: $gray1;
 }
 
 @media (max-width: 673px) {

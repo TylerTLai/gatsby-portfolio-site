@@ -1,5 +1,6 @@
 import React from "react"
 import projects from "./projects.json"
+import { v4 as uuidv4 } from "uuid"
 import { AiFillGithub } from "react-icons/ai"
 import { FiExternalLink } from "react-icons/fi"
 import { motion } from "framer-motion"
@@ -11,13 +12,14 @@ import {
 import projectStyles from "./project.module.scss"
 
 function Project() {
+ 
   return (
     <div className={projectStyles.container}>
       {projects.map(project => {
         // Technologies collection
         const technologies = project.technology.map(tech => {
           return (
-            <div className={projectStyles.technologiesContainer}>
+            <div className={projectStyles.technologiesContainer} key={uuidv4()}>
               <motion.ul
                 className={projectStyles.list}
                 variants={technologiesVariants}
@@ -36,6 +38,7 @@ function Project() {
             variants={containerVariants}
             initial="initial"
             whileHover="hover"
+            key={uuidv4()}
           >
             <h2 className={projectStyles.projectTitle}>{project.title}</h2>
             <p className={projectStyles.projectLinks}>
