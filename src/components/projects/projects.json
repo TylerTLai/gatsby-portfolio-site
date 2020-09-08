@@ -6,6 +6,17 @@
     "github": "https://github.com/TylerTLai/gatsby-portfolio-site"
   },
   {
+    "title": "Film Findr v2",
+    "description": "An updated version of Film Findr v1 that uses Redux and Styled Components.",
+    "technology": [
+      "React",
+      "Redux",
+      "TMDB API"
+    ],
+    "url": "https://tylertlai.github.io/film-findr-2/#/",
+    "github": "https://github.com/TylerTLai/film-findr-2"
+  },
+  {
     "title": "Film Findr v1",
     "description": "A React web app that allows users to search for movies. It uses the TMDB API.",
     "technology": ["React", "CSS", "TMDB API"],
