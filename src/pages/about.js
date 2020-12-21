@@ -15,15 +15,15 @@ function about() {
   const skills = [
     "HTML5",
     "CSS3 / SCSS",
-    "JavaScript ES6",
+    "JavaScript ES6+",
     "React",
     "Redux",
-    "Firebase",
-    "Git / Github",
-    "Semantic UI",
+    "MongoDB",
+    "Express",
+    "Node",
     "GatsbyJS",
-    "GraphQL",
     "Framer Motion",
+    "Figma",
     "Adobe XD",
   ]
 
@@ -38,6 +38,7 @@ function about() {
       >
         <main className={aboutStyles.main}>
           <h1 className={aboutStyles.heading}>About Me</h1>
+          <h2>Frontend Focused. Backend Capable.</h2>
           <p className={aboutStyles.content}>
             I enjoy turning ideas into useful, well-polished products. Having a
             sharp eye for design helps me deliver quality user experiences.

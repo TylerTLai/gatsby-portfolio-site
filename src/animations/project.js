@@ -6,6 +6,7 @@ export const containerVariants = {
     scale: 1.05,
     backgroundColor: "#00adb5",
     color: "#f0f0f0",
+    boxShadow: "0px 62px 29px -40px rgba(0, 0, 0, 0.4)",
   },
 }
 

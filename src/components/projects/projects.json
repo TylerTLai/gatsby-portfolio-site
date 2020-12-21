@@ -1,4 +1,11 @@
-[{
+[
+  {
+    "title": "PeoplePod",
+    "description": "Personal CRM built with the MongDB, Express, React, Node. Client and API are separate repos.",
+    "technology": ["MERN", "Styled-Components", "Redux"],
+    "github": "https://github.com/TylerTLai/people-pod-client"
+  },
+  {
     "title": "Portfolio Site",
     "description": "Portfolio site built with React, Gatsby, Netlify, and Framer Motion.",
     "technology": ["Gatsby", "React", "Framer Motion"],
