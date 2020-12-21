@@ -1,17 +1,15 @@
 import React from "react"
 import { AiFillGithub } from "react-icons/ai"
 import { FaLinkedin } from "react-icons/fa"
-import { FiCodesandbox } from "react-icons/fi"
 import { FiMail } from "react-icons/fi"
 import { GrTwitter } from "react-icons/gr"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
+
 import contactStyles from "./contact.module.scss"
-import {
-  containerVariants,
-  // emojiVariants,
-  linksVariants,
-} from "../animations/contact"
+
+import { containerVariants, linksVariants } from "../animations/contact"
+
 import Layout from "../components/layout"
 
 function contact() {
@@ -25,23 +23,7 @@ function contact() {
         animate="visible"
       >
         <main className={contactStyles.main}>
-          <motion.h1
-            className={contactStyles.heading}
-            // variants={emojiVariants}
-            // initial="initial"
-            // whileHover="hover"
-          >
-            Say Hello!{" "}
-            {/* <span
-              role="img"
-              aria-label="wave emoji"
-              variants={emojiVariants}
-              initial="initial"
-              whileHover="hover"
-            >
-              👋
-            </span> */}
-          </motion.h1>
+          <motion.h1 className={contactStyles.heading}>Say Hello!</motion.h1>
           <motion.ul className={contactStyles.links}>
             <a
               href="https://www.linkedin.com/in/tylertlai/"

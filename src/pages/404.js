@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
+
 import notFoundStyles from "./404.module.scss"
 import Layout from "../components/layout"
 

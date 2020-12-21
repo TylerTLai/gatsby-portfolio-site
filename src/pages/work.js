@@ -2,9 +2,12 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
 import ScrollUpButton from "react-scroll-up-button"
+
 import workStyles from "./work.module.scss"
+
 import Layout from "../components/layout"
 import Project from "../components/projects/Project"
+
 import { containerVariants } from "../animations/work"
 
 function work() {

@@ -1,13 +1,16 @@
 import React from "react"
-import projects from "./projects.json"
 import { AiFillGithub } from "react-icons/ai"
 import { FiExternalLink } from "react-icons/fi"
 import { motion } from "framer-motion"
+import { v4 as uuidv4 } from "uuid"
+
+import projects from "./projects.json"
 import {
   containerVariants,
   technologiesVariants,
   technologyVariants,
 } from "../../animations/project"
+
 import projectStyles from "./project.module.scss"
 
 function Project() {
@@ -17,7 +20,7 @@ function Project() {
         // Technologies collection
         const technologies = project.technology.map(tech => {
           return (
-            <div className={projectStyles.technologiesContainer}>
+            <div key={uuidv4()} className={projectStyles.technologiesContainer}>
               <motion.ul
                 className={projectStyles.list}
                 variants={technologiesVariants}

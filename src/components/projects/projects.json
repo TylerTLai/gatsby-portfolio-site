@@ -24,20 +24,6 @@
     "github": "https://github.com/TylerTLai/film-findr"
   },
   {
-    "title": "Redux Todo",
-    "description": "A simple todo app made as an exercise to understand Redux concepts.",
-    "technology": ["React", "Redux", "Semantic UI"],
-    "url": "https://codesandbox.io/s/github/TylerTLai/React-Redux-Todo",
-    "github": "https://github.com/TylerTLai/react-redux-todo"
-  },
-  {
-    "title": "Thunk Posts",
-    "description": "Basic app to fetch blog posts asynchronously with Redux Thunk.",
-    "technology": ["React", "Redux", "Redux Thunk"],
-    "url": "https://codesandbox.io/s/github/TylerTLai/redux-thunk-blog-posts",
-    "github": "https://github.com/TylerTLai/redux-thunk-blog-posts"
-  },
-  {
     "title": "Fun Food Friends",
     "description": "A React web app that leverages Firebase. It allows users to log what they will bring to a potluck.",
     "technology": ["React", "CSS", "Firebase"],

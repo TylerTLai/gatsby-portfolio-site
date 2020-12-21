@@ -1,8 +1,10 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { motion } from "framer-motion"
+
 import aboutStyles from "./about.module.scss"
 import Layout from "../components/layout"
+
 import {
   containerVariants,
   skillsVariants,
