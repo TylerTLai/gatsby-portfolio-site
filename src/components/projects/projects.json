@@ -3,6 +3,7 @@
     "title": "PeoplePod",
     "description": "Personal CRM built with the MongDB, Express, React, Node. Client and API are separate repos.",
     "technology": ["MERN", "Styled-Components", "Redux"],
+    "url": "",
     "github": "https://github.com/TylerTLai/people-pod-client"
   },
   {

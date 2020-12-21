@@ -40,8 +40,33 @@ function about() {
           <h1 className={aboutStyles.heading}>About Me</h1>
           <h2>Frontend Focused. Backend Capable.</h2>
           <p className={aboutStyles.content}>
-            I enjoy turning ideas into useful, well-polished products. Having a
-            sharp eye for design helps me deliver quality user experiences.
+            Having been a{" "}
+            <a href="https://500px.com/p/TylerLai?view=photos" target="_blank">
+              photographer
+            </a>
+            ,{" "}
+            <a
+              href="https://www.youtube.com/watch?v=bwIy-tcUt0Q"
+              target="_blank"
+            >
+              video editor
+            </a>
+            , and now, developer, I’m passionate about pushing my creative and
+            technical limits to build software with rich user experiences.
+            <br />
+            <br />
+            In my life and approach, I believe less is more and that simplicity
+            tends to be the best route.
+            <br />
+            <br />
+            If I’m not creating or coding, I’m{" "}
+            <a
+              href="https://www.goodreads.com/user/show/48338817-tyler-lai"
+              target="_blank"
+            >
+              reading
+            </a>
+            .
           </p>
         </main>
 

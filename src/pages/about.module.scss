@@ -19,6 +19,12 @@ $red: #b50000;
 
   .content {
     color: $gray2;
+    line-height: 1.8;
+  }
+
+  a {
+    text-decoration: none;
+    color: $red;
   }
 
   .main {
