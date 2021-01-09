@@ -4,11 +4,13 @@
   "description": "Personal website",
   "version": "1.0.0",
   "author": "Tyler Lai <lai.t.tyler@gmail.com>",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/TylerTLai/gatsby-portfolio-site"
   },
-  "keywords":["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

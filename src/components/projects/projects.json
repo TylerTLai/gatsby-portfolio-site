@@ -7,6 +7,13 @@
     "github": "https://github.com/TylerTLai/people-pod-client"
   },
   {
+    "title": "Travel Site",
+    "description": "React Travel SPA built with custom CSS3 and deployed to Github Pages. Fully responsive.",
+    "technology": ["React", "CSS", "React-router"],
+    "url": "https://tylertlai.github.io/react-travel-site/#/",
+    "github": "https://github.com/TylerTLai/react-travel-site"
+  },
+  {
     "title": "Portfolio Site",
     "description": "Portfolio site built with React, Gatsby, Netlify, and Framer Motion.",
     "technology": ["Gatsby", "React", "Framer Motion"],

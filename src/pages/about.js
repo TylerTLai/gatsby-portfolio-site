@@ -41,13 +41,18 @@ function about() {
           <h2>Frontend Focused. Backend Capable.</h2>
           <p className={aboutStyles.content}>
             Having been a{" "}
-            <a href="https://500px.com/p/TylerLai?view=photos" target="_blank">
+            <a
+              href="https://500px.com/p/TylerLai?view=photos"
+              target="_blank"
+              rel="noreferrer"
+            >
               photographer
             </a>
             ,{" "}
             <a
               href="https://www.youtube.com/watch?v=bwIy-tcUt0Q"
               target="_blank"
+              rel="noreferrer"
             >
               video editor
             </a>
@@ -63,6 +68,7 @@ function about() {
             <a
               href="https://www.goodreads.com/user/show/48338817-tyler-lai"
               target="_blank"
+              rel="noreferrer"
             >
               reading
             </a>
